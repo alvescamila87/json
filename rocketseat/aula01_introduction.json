@@ -1,0 +1,22 @@
+{
+    "nome": "Camila Alves",
+    "cidade": "Blumenau",
+    "telefone": "96325-7456",
+    "livrosFavoritos": [
+        "anne of green gables",
+        "the portrait of dorian gray",
+        "pai rico pai pobre"
+    ],
+    "hobbies": {
+        "semana": "tennis",
+        "fimDeSemana": {
+            "sexta": "estudar",
+            "sabado": "parque",
+            "domingo": "churrasco",
+            "outros": [
+                "caminhada",
+                "futebol"
+            ]
+        }
+    }
+}
