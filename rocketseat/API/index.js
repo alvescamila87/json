@@ -10,8 +10,8 @@ app.listen('3000')
 //criação de rotas/requisições:
 
 // 1. GET
-// app.route('/').get( (req, res) => res.send('hello') )
-// app.route('/sobre').get( (req, res) => res.send('hello, rota sobre!') )
+app.route('/').get( (req, res) => res.send('hello') )
+app.route('/sobre').get( (req, res) => res.send('hello, rota sobre!') )
 
 //2. POST
 //middleware
@@ -35,6 +35,8 @@ app.listen('3000')
 
 //4. DELETE
 
-app.route('/:identificador').delete( (req, res) => {
-    res.send(req.params.identificador)
-})
+// app.route('/:identificador').delete( (req, res) => {
+//     res.send(req.params.identificador)
+// })
+
+
