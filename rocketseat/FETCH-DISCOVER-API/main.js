@@ -9,6 +9,8 @@ function getUsers() {
         .catch(error => console.error(error))
 }
 
+// utilizando o GET com parâmetros
+
 function getUser(id) {
     fetch(`${url}/${id}`)
         .then(response => response.json())
